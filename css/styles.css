@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+}
+
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 40px auto; /* centrado horizontal + separacion arriba */
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+form, #map {
+    margin-top: 20px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #1b5e20;
+}
+
+input, select {
+    margin-top: 10px;
+    padding: 8px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* 🔥 Estilos para los links */
+a {
+    color: #2e7d32;              /* mismo verde que los botones */
+    text-decoration: none;       /* sin subrayado feo */
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin: 0 5px;
+}
+a:hover {
+    color: #1b5e20;              /* verde oscuro al pasar el mouse */
+    text-decoration: underline;  /* opcional, le da feedback */
+}
